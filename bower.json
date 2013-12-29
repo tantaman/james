@@ -1,0 +1,9 @@
+{
+  "name": "james",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "requirejs": "~2.1.9"
+  },
+  "devDependencies": {}
+}

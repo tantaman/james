@@ -1,4 +1,4 @@
 define(['domReady', 'cm-editor', 'text-preview'],
-function(CmEditor, TextPreview) {
+function(nil, CmEditor, TextPreview) {
 	
 });

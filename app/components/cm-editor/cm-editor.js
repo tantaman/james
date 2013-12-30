@@ -1,4 +1,4 @@
 define(['polymer-utils'], function(polymerUtils) {
-	polymerUtils.import('cm-editor');
+	// polymerUtils.import('cm-editor');
 	Polymer('cm-editor');
 });

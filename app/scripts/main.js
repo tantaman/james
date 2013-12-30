@@ -5,8 +5,8 @@ require.config({
 		// xtagsPlatform: '../bower_components/platform/platform',
 		html: 'support/html',
 		'polymer-utils': 'support/polymer-utils',
-		'cm-editor': 'components/cm-editor/cm-editor',
-		'text-preview': 'components/text-preview/text-preview'
+		'cm-editor': '../components/cm-editor/cm-editor',
+		'text-preview': '../components/text-preview/text-preview'
 	}
 
 	// shim: {
@@ -16,12 +16,6 @@ require.config({
 	// 	}
 	// }
 });
-
-window.addEventListener('HTMLImportsLoaded', function() {
-  		// all imports loaded
-  		console.log('IMPORTS LOADED');
-  		console.log(arguments);
-	});
 
 require(['./app'], function(app) {
 	console.log('Included app');
